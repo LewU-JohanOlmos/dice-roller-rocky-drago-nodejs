@@ -1,0 +1,104 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+    max-width: 20vh;
+}
+
+.Player1 {
+    color: #2866b8;
+}
+
+.Player2 {
+    color: #ff3131;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #fdfffc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 10vh;
+    font-size: 4.5rem;
+    color: #1d1d1d;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: #1d1d1d;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.btn {
+    background: #cc4e4e;
+    border-radius: 9999px;
+    color: #ffff;
+    font-size:x-large;
+    padding: 8px 25px 8px 25px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 200px;
+}
+
+.btn:hover {
+    background: #833030;
+    transition-duration: 200ms;
+}
+
+.changnames {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1d1d1d;
+    font-size:large;
+    text-decoration: underline;
+    margin-bottom: 10vh;
+}
+
+.even-roll {
+transition: transform 1.5s ease-out;
+}
+.odd-roll {
+transition: transform 1.25s ease-out;
+}
+
+
+
+.banner {
+    background-color: #080808;
+    margin: auto;
+    max-height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 500px;
+    opacity: 0.5;
+}
